@@ -1,3 +1,11 @@
 colore grigio: #444444
 
 colore arancio: #fe5503
+
+<i class="fa-solid fa-heart"></i>
+
+<i class="fa-solid fa-bullseye"></i>
+
+<i class="fa-solid fa-wrench"></i>
+
+<i class="fa-solid fa-users"></i>

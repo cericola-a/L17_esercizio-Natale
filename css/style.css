@@ -7,13 +7,12 @@ body {
     font-family: Maven Pro;
     font-weight: 300;
     line-height: 1.25rem;
-    font-size: 1,3rem;
+    font-size: 1.2rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     line-height: 3rem;
-    margin: 30px;
 }
 
 
@@ -23,6 +22,12 @@ h1{
 
 h2{
     font-size: 2rem;
+    font-weight: 300;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 /*inizio progetto*/
@@ -123,8 +128,42 @@ span{
     color: #fff;
 }
 
+/*box con griglia*/
 
 
+.box{
+    text-align: center;
+}
+
+.col{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.griglia{
+    display: inline-block;
+    width: 500px;
+    margin: 80px 200px;
+    position: relative;
+}
+
+.griglia .fa-solid{
+    color: #fe5503;
+    font-size: 3rem;
+    position: absolute;
+    bottom: 100px;
+}
+
+
+.destra{
+    text-align: right;
+}
+
+
+.sinistra{
+    text-align: left;
+    
+}
 /*footer e fondo pagina*/
 
 #top a {
@@ -186,6 +225,9 @@ footer p {
     padding: 15px;
 }
 
+footer h2{
+    font-weight: 600;
+}
 
 
 
