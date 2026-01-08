@@ -1,3 +1,4 @@
+/*impostazioni di base*/
 * {
     box-sizing: border-box;
 }
@@ -12,12 +13,19 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     line-height: 3rem;
-    margin: 10px;
+    margin: 30px;
 }
+
 
 h1{
     font-size: 3rem;
 }
+
+h2{
+    font-size: 2rem;
+}
+
+/*inizio progetto*/
 
 #tel{
     padding: 0;
@@ -70,6 +78,7 @@ header {
     margin-top: 20px;
 }
 
+
 span{
     color: #fe5503;
 }
@@ -79,7 +88,7 @@ span{
     background-image: url('https://picsum.photos/800/800');
     background-size: cover;
     background-position: center, top;
-    height: 500px;
+    min-height: 500px;
     color: #fff;
     position: relative;
     z-index: 1;
@@ -99,13 +108,12 @@ span{
     margin: 0 auto;
     width: 600px;
     text-align: center;
-   
 }
 
 #register{
     margin: 100px;
     border: 1px solid #fff;
-    padding: 5px;
+    padding: 10px;
     width: 200px;
     display: inline-block;
     text-align: center;
@@ -115,37 +123,9 @@ span{
     color: #fff;
 }
 
-h2{
-    text-align: center;
-    font-size: 2rem;
-}
-
-.box{
-    text-align: center;
-}
-
-.griglia{
-    
-    display: inline-block;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-}
-
-.icone{
-    display: inline-block;
-    width: calc(100% /4);
-    text-align: center;
-    margin: 0 auto;
-
-}
-
-.fa-heart{
-    color: #fe5503;
-    font-size: 2.5rem;
-}
 
 
+/*footer e fondo pagina*/
 
 #top a {
     font-size: 1.5rem;
@@ -158,12 +138,13 @@ h2{
 #top {
     position: fixed;
     right: 30px;
-    bottom: 50px;
+    bottom: 5px;
     width: 40px;
     height: 40px;
     padding: 0;
     background-color: #302b2b;
-    border: none;
+    border: 1px solid #fff;
+
 }
 
 footer {
@@ -179,24 +160,20 @@ footer {
     background-color: #ccc;
     position: relative;
     color: #fff;
-    margin: 2px;
-    
+    margin: 20px 2px;
 }
 
 .social .fa-brands{
     position: absolute;
     top: 0.5rem;
     right: 0.5rem;
+    padding-left: 0.2rem;
     
 }
 .social a{
     display: inline-block;
     text-align: center;
     
-}
-
-h4 {
-    margin-bottom: 20px;
 }
 
 footer p {
@@ -209,13 +186,8 @@ footer p {
     padding: 15px;
 }
 
-.arancio {
-    color: #fe5503;
-}
 
-.form {
-    width: 50%; 
-    display: inline-block;
-}
+
+
 
 
