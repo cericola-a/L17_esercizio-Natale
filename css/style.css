@@ -143,17 +143,27 @@ span{
 .griglia{
     display: inline-block;
     width: 500px;
-    margin: 80px 200px;
+    padding: 60px;
     position: relative;
+    margin: 0 50px;
 }
 
 .griglia .fa-solid{
     color: #fe5503;
     font-size: 3rem;
-    position: absolute;
-    bottom: 100px;
 }
 
+.destra .fa-solid{
+    position: absolute;
+    bottom: 110px;
+    right: -20px;
+}
+
+.sinistra .fa-solid{
+    position: absolute;
+    bottom: 110px;
+    left: -20px;
+}
 
 .destra{
     text-align: right;
@@ -163,6 +173,18 @@ span{
 .sinistra{
     text-align: left;
     
+}
+
+.bg-grigio{
+    background-color: #ccc;
+}
+
+.bg-grigio .contenitore{
+    padding: 30px;
+}
+
+.bg-grigio .fa-solid{
+    color: #444;
 }
 /*footer e fondo pagina*/
 
