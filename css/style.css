@@ -30,6 +30,9 @@ h3{
     font-weight: 500;
 }
 
+strong{
+    font-weight: bold;
+}
 /*inizio progetto*/
 
 #tel{
@@ -113,6 +116,7 @@ span{
     margin: 0 auto;
     width: 600px;
     text-align: center;
+    padding-top: 50px;
 }
 
 #register{
@@ -145,7 +149,7 @@ span{
     width: 500px;
     padding: 60px;
     position: relative;
-    margin: 0 50px;
+    margin: 0 100px;
 }
 
 .griglia .fa-solid{
@@ -186,6 +190,91 @@ span{
 .bg-grigio .fa-solid{
     color: #444;
 }
+.bg-grigio .fa-brands{
+    color: #444;
+    font-size: 3rem;
+    position: absolute;
+    bottom: 110px;
+    left: -20px;
+}
+
+
+
+ 
+.recensioni{
+    display: inline-block;
+    width: 600px; 
+    padding: 50px;
+    
+}
+
+.recensioni img{
+    border-radius: 50%;
+    width: 150px;
+}
+
+.recensioni p{
+    margin: 10px 10px 10px 0;
+}
+.recensioni .fa-solid{
+    color: #ccc;
+    font-size: 5rem;
+}
+
+.posizione{
+    position: relative;
+}
+
+.fa-quote-left{
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+.fa-quote-right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.cerchio{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #302b2b;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.cerchio:hover{
+    background-color: #fe5503;
+}
+
+.team{
+    display: inline-block;
+    background-color: #fff;
+    width: 300px;
+    margin: 20px;
+}
+
+.team img{
+    width: 300px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.team h3{
+    background-color: #fff;
+    width: 300px;
+}
+
+.team p{
+    background-color: #fff;
+    width: 300px;
+    margin-bottom: 20px;
+    
+}
+
 /*footer e fondo pagina*/
 
 #top a {
